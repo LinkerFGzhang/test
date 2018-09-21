@@ -19,6 +19,7 @@ public class SpringBoot04WebRestfulcrudApplication {
 
     @Bean
     public ViewResolver myViewReolver() {
+        System.out.println("asd");
         return new MyViewResolver();
     }
 
@@ -26,6 +27,7 @@ public class SpringBoot04WebRestfulcrudApplication {
 
         @Override
         public View resolveViewName(String viewName, Locale locale) throws Exception {
+            System.out.println("asd");
             return null;
         }
     }
