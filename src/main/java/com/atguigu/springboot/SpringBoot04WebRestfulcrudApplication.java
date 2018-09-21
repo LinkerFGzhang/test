@@ -13,7 +13,6 @@ import java.util.Locale;
 public class SpringBoot04WebRestfulcrudApplication {
 
     public static void main(String[] args) {
-        System.out.println("asd");
         SpringApplication.run(SpringBoot04WebRestfulcrudApplication.class, args);
     }
 
