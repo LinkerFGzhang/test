@@ -13,13 +13,11 @@ import java.util.Locale;
 public class SpringBoot04WebRestfulcrudApplication {
 
     public static void main(String[] args) {
-        System.out.println("asd");
         SpringApplication.run(SpringBoot04WebRestfulcrudApplication.class, args);
     }
 
     @Bean
     public ViewResolver myViewReolver() {
-        System.out.println("asd");
         return new MyViewResolver();
     }
 
@@ -27,7 +25,6 @@ public class SpringBoot04WebRestfulcrudApplication {
 
         @Override
         public View resolveViewName(String viewName, Locale locale) throws Exception {
-            System.out.println("asd");
             return null;
         }
     }
